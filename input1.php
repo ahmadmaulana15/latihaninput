@@ -9,7 +9,7 @@
     <script src="main.js"></script>
 </head>
 <body>
-<form action="" method ="post" name ="input">
+<form action="" method ="post" name ="input"reqired>
 Nama Anda  : <input type="text" name="nama"><br>
 <input type ="submit" name = "input" value ="input">
 </form>
