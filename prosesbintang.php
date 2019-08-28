@@ -10,7 +10,7 @@ if(isset($_POST['simpan'])){
                echo"*";
            }
            for($l=0;$l<=$i;$l++){
-echo"*";
+                 echo"*";
            }
            echo "<br>";
         }
