@@ -20,9 +20,9 @@
     <hr>
     </form>
     <?php
-    if(isset($_GET['submit'])){
-        $jml_form=$_GET['jml'];
-        for($a=1;$a <= $jml_form;$a++){
+    if (isset($_GET['submit'])) {
+        $jml_form = $_GET['jml'];
+        for ($a = 1; $a <= $jml_form; $a++) {
             ?>
         <form action="formarraypro.php" method="post">
         <label for="">Nama</label>
@@ -31,12 +31,14 @@
         <input type="text" name="kelas[]" required><br>
         <br>
 
-        <?php } ?>
+        <?php 
+    } ?>
         <input type="submit" name="sbm" value="Simpan">
         <input type="reset" value="Reset">
         </form>
-        <?php }
-        ?>
+        <?php 
+    }
+    ?>
     
     </fieldset>
 </body>
